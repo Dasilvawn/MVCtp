@@ -2,7 +2,7 @@ const express = require('express');
 const router= express.Router();
 
 // controlador
-  const mainController = requirre('../controllers/mainController');
+  const mainController = require('../controllers/mainController');
  
 //   rutas
 router.get('/', mainController.home);

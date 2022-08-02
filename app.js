@@ -2,7 +2,7 @@ const express= require('express') ;
 const app = express();
 
 const port = 3000;
-const mainRouter = require('/routers/mian');
+const mainRouter = require('./routers/mian');
 
 // recursos estaticos
 app.use(express.static('public'));
